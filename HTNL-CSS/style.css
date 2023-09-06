@@ -1,0 +1,100 @@
+@charset "UTF-8";
+body {
+    background: #eee;
+}
+.question {
+    background: #d0b3ee;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 8px;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+}
+a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background: #6cb6e1;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin: 5px
+}
+a:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+.container {
+    max-width: 100%;
+    display: flex;
+}
+.container.a {
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.container.b {
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: #ffc0cb;
+    width: 200px;
+    text-align: center;
+    padding: 30px 0;
+    margin: 5px;
+}
+
+/* Sign in */
+form {
+    width: 500px;
+}
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+}
+dd {
+    width: 500px;
+    margin-bottom: 12px;
+}
+input {
+    width: 500px;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+}
+button {
+    width: 100%;
+    padding: 10px 0px;
+    background: #e6abee;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: solid 1px #000;
+}
+a.sign-up {
+    display: inline;
+    background: none;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+a.sign-up:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+p {
+    text-align-last: right;
+}
